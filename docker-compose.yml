@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  server:
+    build: .
+    stop_signal: SIGINT
+    volumes:
+      - "./src:/echo/src"
+    ports:
+      - "4040:4040"
+      - "8080:8080"
