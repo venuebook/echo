@@ -7,7 +7,7 @@ A small script to start an [express](https://www.npmjs.com/package/express) serv
 - Some terminal experience
 
 ## Installation
-1. Clone this directory `git clone git@github.com:venuebook/echo.git`
+1. Clone this directory `git clone https://github.com/venuebook/echo.git`
 2. Enter the repo `cd echo`
 3. Install the npm dependencies `npm install`
 4. Start the server and the tunnel with `npm start`
